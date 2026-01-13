@@ -4,16 +4,21 @@
   <meta charset="utf-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <title>Kallol Barai — Home</title>
+  <link rel="icon" href="assets/favicon.png" />
   <link rel="stylesheet" href="assets/styles.css"/>
 </head>
 <body>
   <header class="nav">
     <div class="nav-inner">
       <div class="brand">
-        <b>Kallol Barai</b>
-        <span>PhD Candidate | Data Science &amp; Remote Sensing | Precision Agriculture | Plant Physiology</span>
+        <img class="avatar" src="assets/images/avatar.jpg" alt="Headshot"/>
+        <div class="txt">
+          <b>Kallol Barai</b>
+          <span>PhD Candidate | Remote Sensing | Data Science | Precision Agriculture | Plant Physiology</span>
+        </div>
       </div>
       <nav class="links">
+        
         
         <a class="pill active" href="index.html">Home</a>
         <a class="pill" href="projects.html">Projects</a>
@@ -21,26 +26,62 @@
         <a class="pill" href="teaching.html">Teaching</a>
         <a class="pill" href="service.html">Service</a>
         <a class="pill" href="assets/CV.docx" download>Download CV</a>
+        <button class="iconbtn" type="button" onclick="toggleTheme()" aria-label="Toggle theme">☾</button>
+      
       
       </nav>
     </div>
   </header>
   <main class="container">
 
-    <section class="card hero">
-      <div class="kicker">Academic profile</div>
+    
+    <section class="card hero" data-hero data-hero-images="assets/images/hero_uav.jpg,assets/images/field2.jpg,assets/images/field3.jpg,assets/images/field4.jpg">
+      <div class="hero-bg"></div>
+      <div class="kicker">Plant physiology • remote sensing • precision agriculture</div>
       <h1>Kallol Barai</h1>
-      <div class="subtitle">PhD Candidate | Data Science &amp; Remote Sensing | Precision Agriculture | Plant Physiology</div>
+      <div class="subtitle">PhD Candidate | Remote Sensing | Data Science | Precision Agriculture | Plant Physiology</div>
       <div class="subtitle">Orono, ME, USA • <a href="mailto:kallol.barai@maine.edu">kallol.barai@maine.edu</a> • +1 (207) 889-4160</div>
       <div class="actions">
-        <a class="btn" href="publications.html">View Publications</a>
+        <a class="btn" href="projects.html">View Projects</a>
+        <a class="btn secondary" href="publications.html">Publications</a>
         <a class="btn secondary" href="assets/CV.docx" download>Download CV</a>
         <a class="btn secondary" href="http://www.linkedin.com/in/kallol-barai" target="_blank" rel="noopener">LinkedIn</a>
-        <a class="btn secondary" href="https://scholar.google.com/citations?user=o9h1OusAAAAJ&amp;hl=en" target="_blank" rel="noopener">Google Scholar</a>
+        <a class="btn secondary" href="https://scholar.google.com/citations?user=o9h1OusAAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar</a>
       </div>
       <hr class="sep"/>
-      <div class="small"><b>Research interests:</b> Remote Sensing of Vegetation, Climate Change Impacts on Terrestrial Ecosystems, Applied Plant Physiology, Plant Phenotyping, Precision Agriculture.</div>
+      <div class="about">
+        <img class="headshot" src="assets/images/headshot.jpg" alt="Headshot"/>
+        <div>
+          <h2 style="margin:0 0 8px; font-size:18px">About</h2>
+          <p>As a Ph.D. candidate at the University of Maine, I am dedicated to advancing Plant Science through applied plant physiology, remote sensing of vegetation, precision agriculture, and analysis of climate-change impacts on crop ecosystems. With a strong academic foundation (M.S. in Botany and Plant Pathology), my research integrates satellite and UAV remote sensing with field-based physiology and data-driven modeling to address agricultural and ecological challenges. My work contributes to developing non-destructive approaches for assessing crop nutrient and water status, and to improving understanding of physiological responses to environmental stress using remotely sensed information. I apply geospatial and spectral analysis workflows (ArcGIS, QGIS, ENVI, Google Earth Engine) and statistical programming (R, Python), and I have been recognized through peer-reviewed publications and awards for excellence in plant science research.</p>
+          <div class="taggrid">
+            <span class="tag">Wild blueberry</span>
+            <span class="tag">UAV thermal & hyperspectral</span>
+            <span class="tag">MODIS / Landsat / Sentinel</span>
+            <span class="tag">Machine learning</span>
+            <span class="tag">Climate impacts</span>
+            <span class="tag">Plant phenotyping</span>
+          </div>
+        </div>
+      </div>
     </section>
+
+    <section class="card section" style="margin-top:14px;">
+      <h2>Wild blueberry field gallery</h2>
+      <p>Representative field scenes that contextualize my research in Maine wild blueberry agroecosystems.</p>
+      <div class="gallery">
+        <img src="assets/images/field1.jpg" alt="Wild blueberry flowers" data-lightbox="assets/images/field1.jpg"/>
+        <img src="assets/images/field2.jpg" alt="Wild blueberry field landscape" data-lightbox="assets/images/field2.jpg"/>
+        <img src="assets/images/field3.jpg" alt="Wild blueberry field in fall" data-lightbox="assets/images/field3.jpg"/>
+        <img src="assets/images/field4.jpg" alt="Wild blueberry field in winter" data-lightbox="assets/images/field4.jpg"/>
+      </div>
+    </section>
+
+    <div id="lightbox" class="lightbox" aria-hidden="true">
+      <button id="lightboxClose" aria-label="Close">×</button>
+      <img alt="Expanded view"/>
+    </div>
+
 
     <section class="grid">
       <div class="card section">

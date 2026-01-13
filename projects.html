@@ -4,6 +4,7 @@
   <meta charset="utf-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <title>Kallol Barai — Projects</title>
+  <link rel="icon" href="assets/favicon.png" />
   <link rel="stylesheet" href="assets/styles.css"/>
   <style>
     .proj-grid{display:grid; grid-template-columns:1fr 1fr; gap:14px; margin-top:18px}
@@ -20,10 +21,14 @@
   <header class="nav">
     <div class="nav-inner">
       <div class="brand">
-        <b>Kallol Barai</b>
-        <span>PhD Candidate | Data Science & Remote Sensing | Precision Agriculture | Plant Physiology</span>
+        <img class="avatar" src="assets/images/avatar.jpg" alt="Headshot"/>
+        <div class="txt">
+          <b>Kallol Barai</b>
+          <span>PhD Candidate | Remote Sensing | Data Science | Precision Agriculture | Plant Physiology</span>
+        </div>
       </div>
       <nav class="links">
+        
         
         <a class="pill" href="index.html">Home</a>
         <a class="pill active" href="projects.html">Projects</a>
@@ -31,6 +36,8 @@
         <a class="pill" href="teaching.html">Teaching</a>
         <a class="pill" href="service.html">Service</a>
         <a class="pill" href="assets/CV.docx" download>Download CV</a>
+        <button class="iconbtn" type="button" onclick="toggleTheme()" aria-label="Toggle theme">☾</button>
+      
       
       </nav>
     </div>
@@ -49,7 +56,7 @@
 
     <section class="proj-grid">
       <div class="card proj-card">
-        <div class="proj-img"><img src="assets/projects/water_stress_uav.svg" alt="UAV thermal water stress project"/></div>
+        <div class="proj-img"><img src="assets/images/hero_uav.jpg" alt="UAV thermal water stress project"/></div>
         <h2>UAV Thermal Water Stress Mapping</h2>
         <p>Developed UAV-based thermal approaches to detect within-field water stress patterns and evaluate the influence of temporal dynamics and reference temperature selection on stress estimates.</p>
         <div class="proj-meta">
@@ -60,7 +67,7 @@
       </div>
 
       <div class="card proj-card">
-        <div class="proj-img"><img src="assets/projects/yield_ml_uav.svg" alt="Yield prediction project"/></div>
+        <div class="proj-img"><img src="assets/images/field2.jpg" alt="Yield prediction project"/></div>
         <h2>Yield Prediction with ML + UAV</h2>
         <p>Implemented machine-learning workflows using UAV imagery to estimate wild blueberry yield, testing effects of flight altitude, sampling strategy, and model selection.</p>
         <div class="proj-meta">
@@ -71,7 +78,7 @@
       </div>
 
       <div class="card proj-card">
-        <div class="proj-img"><img src="assets/projects/tlp_spectroscopy.svg" alt="TLP spectroscopy project"/></div>
+        <div class="proj-img"><img src="assets/images/field1.jpg" alt="TLP spectroscopy project"/></div>
         <h2>Leaf Spectroscopy for Turgor Loss Point Estimation</h2>
         <p>Advancing spectroscopy-based prediction of turgor loss point (TLP) to reduce reliance on destructive pressure–volume methods and accelerate screening for drought tolerance.</p>
         <div class="proj-meta">
@@ -82,7 +89,7 @@
       </div>
 
       <div class="card proj-card">
-        <div class="proj-img"><img src="assets/projects/climate_productivity.svg" alt="Climate productivity project"/></div>
+        <div class="proj-img"><img src="assets/images/field3.jpg" alt="Climate productivity project"/></div>
         <h2>Climate Drivers of Long-Term Productivity</h2>
         <p>Integrated climate datasets with satellite-derived productivity metrics to quantify spatiotemporal patterns in wild blueberry productivity across 134 fields over 2000–2022.</p>
         <div class="proj-meta">

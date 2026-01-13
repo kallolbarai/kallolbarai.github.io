@@ -47,3 +47,10 @@ The navigation includes a **Download CV** button that serves `assets/CV.docx`. R
 
 ## Projects page images
 Place your project figures in `assets/projects/` and update filenames in `projects.html` if you use PNG/JPG.
+
+
+## Theme + images (updated)
+- Theme toggle in nav (dark/light)
+- Hero background slideshow (edit `data-hero-images` in `index.html`)
+- Headshot: `assets/images/headshot.jpg`
+- Field gallery + click-to-zoom lightbox
