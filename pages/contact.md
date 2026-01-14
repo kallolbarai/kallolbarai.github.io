@@ -15,5 +15,4 @@ permalink: /pages/contact/
 - LinkedIn: <a href="{{ p.links.linkedin }}">{{ p.links.linkedin }}</a>  
 
 <p style="color:var(--muted);margin-top:1rem">
-Update these URLs in <code>_data/profile.yml</code>.
 </p>
