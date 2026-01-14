@@ -7,7 +7,6 @@ title: Home
 
 <section class="hero">
   <div class="card hero__main">
-    <p class="hero__kicker">{{ p.location }}</p>
     <h1 class="hero__title">{{ p.name }}</h1>
     <p class="hero__bio">I am a Ph.D. candidate in Plant Science at the University of Maine. I conduct research at the intersection of applied plant physiology, remote sensing, and data science to support climate-resilient management of wild blueberry agroecosystems. My work integrates satellite- and UAV-based observations with field measurements to characterize spatiotemporal patterns in productivity and to quantify crop responses to climatic variability. A central goal of my research is to develop non-destructive, scalable methods for monitoring plant water and nutrient status, enabling precision management decisions at the field scale.</p>
 
