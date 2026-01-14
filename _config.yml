@@ -1,0 +1,16 @@
+title: Kallol Barai
+description: Remote sensing of vegetation, applied plant physiology, and precision
+  agriculture for climate-resilient cropping systems.
+url: ''
+baseurl: ''
+markdown: kramdown
+kramdown:
+  input: GFM
+permalink: pretty
+collections: {}
+defaults:
+- scope:
+    path: ''
+    type: pages
+  values:
+    layout: page

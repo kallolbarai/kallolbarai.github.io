@@ -1,0 +1,43 @@
+projects:
+- status: Current
+  title: Using Remote Sensing to Reveal Factors Determining Wild Blueberry Productivity.
+  description: 'Using Remote Sensing to Reveal Factors Determining Wild Blueberry
+    Productivity.: Using satellite-based remote sensing data, this project aims to
+    assess the historical pattern of photosynthetic activity-related variables and
+    their relationships with climatic variables to understand the resilience of wild
+    blueberries to warming.'
+- status: Current
+  title: Remote Sensing of Leaf Nutrient Status and Leaf Water Status…
+  description: 'Remote Sensing of Spatial Variation of Leaf Nutrient Status and Leaf
+    Water Status of Wild Blueberries for Precision Management.: Using high-resolution
+    airborne hyperspectral imagery, this project aims to develop a remotely sensed,
+    non-destructive, and cost-effective method for predicting leaf nutrient status
+    and water status and their spatial variation within a large commercial field.'
+- status: Current
+  title: Development of Non-destructive Turgor Loss Point Prediction Model Using Leaf
+    Spectral Responses…
+  description: Development of Non-destructive Turgor Loss Point Prediction Model Using
+    Leaf Spectral Responses and Machine Learning. - This project aims to use contact
+    hyperspectral sensing to detect leaf spectral properties associated with the physiological
+    properties of the turgor loss point.
+- status: Past
+  title: A Satellite-based Remote Sensing Platform to Understand Crop Physiological
+    Anomaly Caused Due…
+  description: 'A Satellite-based Remote Sensing Platform to Understand Crop Physiological
+    Anomaly Caused Due to Recent Summer Drought on Wild Blueberry in Maine.: Used
+    MODIS satellite-based multi-year and multi-spectral imagery platforms to understand
+    crop health and vegetation anomaly caused by drought and its impact on production.'
+- status: Past
+  title: Detection of Spatial Variation in Wild Blueberries Water Stress using UAV-borne
+    Thermal…
+  description: 'Detection of Spatial Variation in Wild Blueberries Water Stress using
+    UAV-borne Thermal Sensor.: Used UAV-based high-resolution thermal imagery to monitor
+    water stress for precision irrigation in wild blueberries.'
+- status: Past
+  title: Quantification of the Variation of Major Leaf and Stem Functional Traits
+    of…
+  description: 'Quantification of the Variation of Major Leaf and Stem Functional
+    Traits of Wild Blueberry and Their Relationships between Yield-Related Traits.:
+    Quantified the variation of major leaf and stem functional traits and yield-related
+    traits among selected genotypes and between fields of wild blueberries and established
+    relationships between plant functional traits and yield-related traits.'
